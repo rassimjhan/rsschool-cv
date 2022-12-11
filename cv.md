@@ -7,16 +7,15 @@
 - **Email:** rasimjhan@gmail.com
 - **LinkedIn:** [rassim-kurbanov](https://www.linkedin.com/in/rassim-kurbanov-218920223/)
 - **Discord:** *Rassim#3667*
-********* 
 
+********* 
 ## About myself
 Graduated from two universities with a degree in IT. I strive to become a sought-after developer and create solutions that will make people's lives easier. 
 
 
 At the moment I work in the accounting company frontend as a developer, I use vue.js and nuxt.js for work.
+
 ********* 
-
-
 ## Skills
 1. Javascript
 2. Vue.js
