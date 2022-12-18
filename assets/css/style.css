@@ -1,0 +1,138 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+.footer {
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+  line-height: 50px;
+}
+
+.nav-link {
+  transition: 0.3s;
+  text-decoration: none;
+  color: rgb(183, 155, 155);
+}
+
+.nav-link:hover {
+  color: rgb(126, 108, 108);
+}
+
+.section {
+  width: 50%;
+}
+
+.section:first-child {
+  width: 100%;
+  display: flex;
+}
+
+.section-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background-color: rgb(142, 189, 142);
+  padding: 5px 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.section-profile {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+  .main-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 50px;
+  }
+}
+
+pre code {
+  display: block;
+  background: #eee;
+  white-space: pre;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  max-width: 100%;
+  width: 700px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.img-avatar {
+  border-radius: 50%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 50%;
+  padding: 30px 0px;
+}
+
+.icon-text {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+}
